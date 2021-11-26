@@ -12,7 +12,7 @@ Kelompok C07
 
 **GNS3 - CIDR**
 
-Pembagian subnet di CIDR dimulai dari yag terjauh dari cloud agar mempermudah routing sehingga didapatkan subnet sebagai berikut :
+Pembagian subnet di CIDR dimulai dari yang terjauh dari cloud agar mempermudah routing sehingga didapatkan subnet sebagai berikut :
 
 ![2.1](images/2.1.png)
 
@@ -37,7 +37,6 @@ Dari gambar diatas dapat kita buat tree subnet CIDR seperti berikut :
 |  A13   |     2     |   /30   |  192.188.8.0  |
 |  A14   |    721    |   /22   |  192.188.0.0  |
 |  A15   |    252    |   /24   |  192.188.4.0  |
-| Total  |   5845    |   /19   |
 
 Kemudian buat topologi pada GNS3 seperti berikut :
 
