@@ -8,9 +8,100 @@ Kelompok C07
 | 05111940000134 |           Ahmad Lamaul Farid            |
 | 05111940000150 | Jonathan Leonardo Hasiholan Simanjuntak |
 
-**CPT - VLSM**
+# CPT - VLSM
 
-**GNS3 - CIDR**
+Pertama - tama, bagi topologi yang sudah diberikan ke dalam beberapa subnet kecil sesuai kebutuhan :
+
+![1.1](images/1.1.png)
+
+Tentukan jumlah IP yang diperlukan beserta dengan netmasknya untuk setiap subnet yang ada :
+
+|  Subnet   | Jumlah IP | Netmask |
+| :-------: | :-------: | :-----: |
+|    A1     |    701    |   /22   |
+|    A2     |   1001    |   /22   |
+|    A3     |     2     |   /30   |
+|    A4     |     2     |   /30   |
+|    A5     |     2     |   /30   |
+|    A6     |    101    |   /25   |
+|    A7     |   2021    |   /21   |
+|    A8     |    521    |   /22   |
+|    A9     |     2     |   /30   |
+|    A10    |    502    |   /23   |
+|    A11    |    13     |   /28   |
+|    A12    |     2     |   /30   |
+|    A13    |     2     |   /30   |
+|    A14    |    721    |   /22   |
+|    A15    |    252    |   /24   |
+| **Total** | **5845**  | **/19** |
+
+Berdasarkan data tersebut, susun tree subnet VLSM seperti berikut :
+
+![1.2](images/1.2.png)
+
+Dengan demikian, didapatkan NID untuk masing - masing subnet sebagai berikut :
+
+|  Subnet   | Jumlah IP | Netmask |      NID      |
+| :-------: | :-------: | :-----: | :-----------: |
+|    A1     |    701    |   /22   |  192.187.4.0  |
+|    A2     |   1001    |   /22   |  192.187.8.0  |
+|    A3     |     2     |   /30   |  192.187.0.0  |
+|    A4     |     2     |   /30   |  192.187.0.4  |
+|    A5     |     2     |   /30   |  192.187.0.8  |
+|    A6     |    101    |   /25   | 192.187.0.128 |
+|    A7     |   2021    |   /21   | 192.187.24.0  |
+|    A8     |    521    |   /22   | 192.187.12.0  |
+|    A9     |     2     |   /30   | 192.187.0.12  |
+|    A10    |    502    |   /23   |  192.187.2.0  |
+|    A11    |    13     |   /28   | 192.187.0.48  |
+|    A12    |     2     |   /30   | 192.187.0.16  |
+|    A13    |     2     |   /30   | 192.187.0.20  |
+|    A14    |    721    |   /22   | 192.187.16.0  |
+|    A15    |    252    |   /24   |  192.187.1.0  |
+| **Total** | **5845**  | **/19** |
+
+Masing - masing interface pada sebuah subnet dapat diberikan IP sesuai dengan aturan yang telah diberikan di atas.
+
+## Routing
+
+Pada kasus topologi yang sudah kami buat ini, route table yang ada pada masing - masing router adalah sebagai berikut :
+
+- PUCCI
+  ![1.3](images/1.3-Pucci.png)
+
+- Water7
+  ![1.4](images/1.4-Water7.png)
+
+- Foosha
+  ![1.5](images/1.5-Foosha.png)
+
+  ![1.6](images/1.6-Foosha.png)
+
+  ![1.7](images/1.7-Foosha.png)
+
+- Guanhao
+  ![1.8](images/1.8-Guanhao.png)
+
+- Alabasta
+  ![1.9](images/1.9-Alabasta.png)
+
+- Oimo
+  ![1.10](images/1.10-Oimo.png)
+
+- Seastone
+  ![1.11](images/1.11-Seastone.png)
+
+## Testing
+
+Berikut adalah beberapa testing ping yang dilakukan :
+
+![testing1](images/testing1.PNG)
+
+![testing2](images/testing2.PNG)
+
+![testing3](images/testing3.PNG)
+
+# GNS3 - CIDR
 
 Pembagian subnet di CIDR dimulai dari yang terjauh dari cloud agar mempermudah routing sehingga didapatkan subnet sebagai berikut :
 
@@ -96,7 +187,7 @@ Setelah melakukan configurasi seperti gambar diatas, maka langkah selanjutnya ad
 
 Ketikkan perintah `echo nameserver 192.168.122.1 > /etc/resolv.conf` pada setiap node yang ada di topologi GNS3 agar semua node dapat mengakses internet
 
-**Testing**
+## Testing
 
 Lakukan ping antar node atau ke jaringan luar. Disini kami menggunakan `ping youtube.com` dengan testing nodenya `Fukurou`. Jika semua routing kita sudah benar maka kita dapat melakukan `ping` seperti pada gambar berikut :
 
