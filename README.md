@@ -160,6 +160,56 @@ IP 192.187.16.1
 Subnet Mask 255.255.252.0  // Menuju Elena
 ```
 
+- Host
+```
+IP 192.187.8.2
+Subnet Mask 255.255.252.0  // di Blueno
+```
+```
+IP 192.187.4.2
+Subnet Mask 255.255.252.0  // di Chiper
+```
+```
+IP 192.187.0.130
+Subnet Mask 255.255.255.128  // di Jipangu
+```
+```
+IP 192.187.24.3
+Subnet Mask 255.255.248.0  // di Courtyard
+```
+```
+IP 192.187.24.2
+Subnet Mask 255.255.248.0  // di Calmbelt
+```
+```
+IP 192.187.12.2
+Subnet Mask 255.255.252.0  // di Jabra
+```
+```
+IP 192.187.2.2
+Subnet Mask 255.255.254.0  // di Maingate
+```
+```
+IP 192.187.0.50
+Subnet Mask 255.255.255.240 // di Jorge
+```
+```
+IP 192.187.16.2
+Subnet Mask 255.255.252.0  // di Elena
+```
+```
+IP 192.187.1.3
+Subnet Mask 255.255.255.0  // di Enies lobby
+```
+```
+IP 192.187.0.10
+Subnet Mask 255.255.255.252  // di Doriki
+```
+```
+IP 192.187.0.22
+Subnet Mask 255.255.255.252  // di Fukuro
+```
+
 
 ## Routing
 
