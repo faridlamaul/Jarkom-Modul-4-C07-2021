@@ -62,6 +62,24 @@ Dengan demikian, didapatkan NID untuk masing - masing subnet sebagai berikut :
 
 Masing - masing interface pada sebuah subnet dapat diberikan IP sesuai dengan aturan yang telah diberikan di atas.
 
+- Foosha
+```
+IP 192.187.8.1
+Subnet Mask 255.255.252.0  // Menuju Blueno
+```
+```
+IP 192.187.0.13
+Subnet Mask 255.255.252.0  // Menuju Guanhao
+```
+```
+IP 192.187.0.1
+Subnet Mask 255.255.252.0  // Menuju Water7
+```
+```
+IP 192.187.0.9
+Subnet Mask 255.255.252.0  // Menuju Doriki
+```
+
 ## Routing
 
 Pada kasus topologi yang sudah kami buat ini, route table yang ada pada masing - masing router adalah sebagai berikut :
