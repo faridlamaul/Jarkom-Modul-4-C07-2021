@@ -63,6 +63,7 @@ Dengan demikian, didapatkan NID untuk masing - masing subnet sebagai berikut :
 Masing - masing interface pada sebuah subnet dapat diberikan IP sesuai dengan aturan yang telah diberikan di atas.
 
 - Foosha
+
 ![image](https://user-images.githubusercontent.com/77373958/143667818-0d8d7893-0b1e-4564-98b1-49ee0d8aea69.png)
 
 ```
@@ -83,6 +84,7 @@ Subnet Mask 255.255.255.252  // Menuju Doriki
 ```
 
 - Water 7
+
 ![image](https://user-images.githubusercontent.com/77373958/143667832-bd6328b4-07c9-4ab4-b37a-633c76f4d18f.png)
 
 ```
@@ -99,6 +101,7 @@ Subnet Mask 255.255.255.252  // Menuju Foosha
 ```
 
 - Pucci
+
 ![image](https://user-images.githubusercontent.com/77373958/143667889-39a1190b-20e0-4bb7-bf4d-3dbdb32fa877.png)
 
 ```
@@ -115,6 +118,7 @@ Subnet Mask 255.255.248.0  // Menuju Cambelt dan Courtyard
 ```
 
 - Guanhao
+
 ![image](https://user-images.githubusercontent.com/77373958/143667910-43220235-d3a0-47f9-aeaf-77d8e071432c.png)
 
 ```
@@ -135,6 +139,7 @@ Subnet Mask 255.255.255.252  // Menuju Oimo
 ```
 
 - Alabasta
+
 ![image](https://user-images.githubusercontent.com/77373958/143667922-75dbbf4c-f3ba-4a81-98a1-9a1ee57d8abe.png)
 
 ```
@@ -147,6 +152,7 @@ Subnet Mask 255.255.255.240  // Menuju Jorge
 ```
 
 - Oimo
+
 ![image](https://user-images.githubusercontent.com/77373958/143667933-878ea3a4-abc7-47bf-adbc-5e376366b480.png)
 
 ```
@@ -163,6 +169,7 @@ Subnet Mask 255.255.255.0  // Menuju Seastone dan Enies lobby
 ```
 
 - Seastone
+
 ![image](https://user-images.githubusercontent.com/77373958/143667949-19972eec-60f2-4ec4-b533-da6146a31874.png)
 
 ```
@@ -175,6 +182,7 @@ Subnet Mask 255.255.252.0  // Menuju Elena
 ```
 
 - Host
+
 ![image](https://user-images.githubusercontent.com/77373958/143667958-a005aac4-c466-490a-b4a7-b989fbab4af8.png)
 
 ```
