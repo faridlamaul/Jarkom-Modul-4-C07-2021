@@ -69,16 +69,97 @@ Subnet Mask 255.255.252.0  // Menuju Blueno
 ```
 ```
 IP 192.187.0.13
-Subnet Mask 255.255.252.0  // Menuju Guanhao
+Subnet Mask 255.255.255.252  // Menuju Guanhao
 ```
 ```
 IP 192.187.0.1
-Subnet Mask 255.255.252.0  // Menuju Water7
+Subnet Mask 255.255.255.252  // Menuju Water7
 ```
 ```
 IP 192.187.0.9
-Subnet Mask 255.255.252.0  // Menuju Doriki
+Subnet Mask 255.255.255.252  // Menuju Doriki
 ```
+
+- Water 7
+```
+IP 192.187.4.1
+Subnet Mask 255.255.252.0  // Menuju Chiper
+```
+```
+IP 192.187.0.5
+Subnet Mask 255.255.255.252  // Menuju Pucci
+```
+```
+IP 192.187.0.2
+Subnet Mask 255.255.255.252  // Menuju Foosha
+```
+
+- Pucci
+```
+IP 192.187.0.6
+Subnet Mask 255.255.255.252  // Menuju Water7
+```
+```
+IP 192.187.0.129
+Subnet Mask 255.255.255.128  // Menuju Jipangu
+```
+```
+IP 192.187.24.1
+Subnet Mask 255.255.248.0  // Menuju Cambelt dan Courtyard
+```
+
+- Guanhao
+```
+IP 192.187.0.14
+Subnet Mask 255.255.255.252  // Menuju Foosha
+```
+```
+IP 192.187.2.0
+Subnet Mask 255.255.254.0  // Menuju Maingate dan Alabasta
+```
+```
+IP 192.187.12.1
+Subnet Mask 255.255.252.0  // Menuju Jabra
+```
+```
+IP 192.187.0.17
+Subnet Mask 255.255.255.252  // Menuju Oimo
+```
+
+- Alabasta
+```
+IP 192.187.2.3
+Subnet Mask 255.255.254.0  // Menuju Maingate dan Gunhao
+```
+```
+IP 192.187.0.49
+Subnet Mask 255.255.255.240  // Menuju Jorge
+```
+
+- Oimo
+```
+IP 192.187.0.18
+Subnet Mask 255.255.255.252  // Menuju Gunhao
+```
+```
+IP 192.187.0.21
+Subnet Mask 255.255.255.252  // Menuju Fukuro
+```
+```
+IP 192.187.1.1
+Subnet Mask 255.255.255.0  // Menuju Seastone dan Enies lobby
+```
+
+- Seastone
+```
+IP 192.187.1.2
+Subnet Mask 255.255.255.0  // Menuju Oimo dan Enies lobby
+```
+```
+IP 192.187.16.1
+Subnet Mask 255.255.252.0  // Menuju Elena
+```
+
 
 ## Routing
 
